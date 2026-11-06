@@ -1,8 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite this research software and dataset when using the revision 2 artifact. A Zenodo DOI will be added after archival."
+message: "Please cite this research software and dataset when using the revision 2 artifact."
 type: software
 title: "Artifact for: On the Insufficiency of Exact Graph-Isomorphism Tokens for Lightweight Authentication in Ad Hoc and Sensor Networks"
 version: 1.0.0
+doi: "10.5281/zenodo.24002922"
+date-released: "2026-11-06"
 authors:
   - family-names: Yildirim
     given-names: Alp

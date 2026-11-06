@@ -6,7 +6,7 @@ Data and code for the article:
 
 Repository: https://github.com/hasanbulut/gi-token-witness-recovery
 
-This is the **revision 2** artifact, version **1.0.0**. A Zenodo DOI has not yet been assigned. Citation metadata is provided in `CITATION.cff` and `.zenodo.json`; Hasan Bulut's ORCID is https://orcid.org/0000-0002-4872-5698.
+This is the **revision 2** artifact, version **1.0.0**. The published archive is available at https://doi.org/10.5281/zenodo.24002922. Citation metadata is provided in `CITATION.cff` and `.zenodo.json`; Hasan Bulut's ORCID is https://orcid.org/0000-0002-4872-5698.
 
 Everything here belongs to the **revised** measurement pipeline: monotonic solver-only timing, mandatory witness verification, and label-aware matching in every solver tier.
 
@@ -144,8 +144,10 @@ sha256sum -c SHA256SUMS_uncompressed.txt
 
 Code (`code/`): MIT. Data (`data/`, `environment/`): CC BY 4.0. See `LICENSE`.
 
-## Archiving on Zenodo
+## Zenodo archive
 
-Before publishing the first GitHub release, connect this repository in [Zenodo's GitHub settings](https://zenodo.org/account/settings/github/). Then publish the `v1.0.0` release on GitHub. Zenodo will archive the release using `.zenodo.json` and assign a DOI. Add the assigned DOI to this README and `CITATION.cff`, and use it in the article's data-availability statement.
+Version **1.0.0** was archived on **2026-11-06** from the GitHub release tagged [`gi-token-witness-recovery`](https://github.com/hasanbulut/gi-token-witness-recovery/releases/tag/gi-token-witness-recovery).
 
-See Zenodo's guides to [enable a repository](https://help.zenodo.org/docs/github/enable-repository/) and [archive a release](https://help.zenodo.org/docs/github/archive-software/github-upload/).
+Cite this version using **https://doi.org/10.5281/zenodo.24002922**. The version-specific DOI identifies the archived code and data used for revision 2; later documentation updates on the default branch do not change that snapshot.
+
+The DOI that resolves to the latest version is https://doi.org/10.5281/zenodo.24002921.
