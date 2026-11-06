@@ -1,0 +1,38 @@
+Significance tests at reference cell n=192, d=6
+
+Cross-construction F1 vs F3 (independent two-sample Mann-Whitney; the only genuinely independent family comparison -- F2/F4 share F1's base graph and are tested paired below):
+  F1: median 2.23 ms (N=200) | F3: median 2.52 ms (N=200)
+  U = 3243.0, p = 1.333e-47  (significant at 0.05), rank-biserial = +0.838 (large)
+
+Degree-preserving swap effect in F2 (paired: every k level applied to the SAME base graph with the SAME target permutation; p-values Holm-adjusted across k levels):
+  PAIRED Wilcoxon signed-rank, 200 pairs (same base graph, same target permutation):
+    k=0: median 2.45 ms | k=384: median 2.47 ms | median per-instance shift +0.02 ms
+    W = 8497.0, p = 0.0581  (not significant at 0.05)
+    matched-pairs rank-biserial = +0.155 (small)
+    Holm-adjusted p (within family) = 0.0581 (not significant at 0.05)
+  PAIRED Wilcoxon signed-rank, 200 pairs (same base graph, same target permutation):
+    k=0: median 2.45 ms | k=960: median 2.48 ms | median per-instance shift +0.02 ms
+    W = 8255.0, p = 0.02851  (significant at 0.05)
+    matched-pairs rank-biserial = +0.179 (small)
+    Holm-adjusted p (within family) = 0.05702 (not significant at 0.05)
+  -> states whether the swap delay is a real effect or noise, with the base graph held fixed as R1 Sec. 4.4 requires. NOTE: at large N a sub-millisecond shift can be 'significant'; report the EFFECT SIZE / median shift, not the p-value, as the security claim.
+
+Exposed-label effect in F4 (paired, label-aware matching enforced by all solvers; nested label masks isolate width; p-values Holm-adjusted across label widths):
+  PAIRED Wilcoxon signed-rank, 200 pairs (same base graph, same target permutation):
+    0-bit: median 2.51 ms | 2-bit: median 34.12 ms | median per-instance shift +31.52 ms
+    W = 0.0, p = 1.436e-34  (significant at 0.05)
+    matched-pairs rank-biserial = +1.000 (large)
+    Holm-adjusted p (within family) = 4.308e-34 (significant at 0.05)
+  PAIRED Wilcoxon signed-rank, 200 pairs (same base graph, same target permutation):
+    0-bit: median 2.51 ms | 4-bit: median 26.11 ms | median per-instance shift +23.60 ms
+    W = 0.0, p = 1.436e-34  (significant at 0.05)
+    matched-pairs rank-biserial = +1.000 (large)
+    Holm-adjusted p (within family) = 4.308e-34 (significant at 0.05)
+  PAIRED Wilcoxon signed-rank, 200 pairs (same base graph, same target permutation):
+    0-bit: median 2.51 ms | 8-bit: median 25.72 ms | median per-instance shift +23.17 ms
+    W = 0.0, p = 1.436e-34  (significant at 0.05)
+    matched-pairs rank-biserial = +1.000 (large)
+    Holm-adjusted p (within family) = 4.308e-34 (significant at 0.05)
+  -> valid only on results produced by the corrected label-aware pipeline; on the old pipeline labels were ignored and any difference was noise.
+  CAVEAT (vf3): vf3py enforces labels via a Python node_match callback, so its labelled timings include FFI overhead. Interpret the label effect via the native-colour solvers (bliss, nauty) or vf2pp; the attacker takes the minimum over solvers, and for those labels ACCELERATE recovery.
+

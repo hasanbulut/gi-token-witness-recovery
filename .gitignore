@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+
+# Local outputs; archived data remains tracked.
+/code/results*.jsonl
+/code/results_meta.json
+/code/vf3_*.csv
+/code/vf3_*.txt
+/code/hardest_summary.txt
+/code/coap_console*.log
+/code/*.png
+/code/*.pdf
+/data/main_grid/results_part_*.jsonl

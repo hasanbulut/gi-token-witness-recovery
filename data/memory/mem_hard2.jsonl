@@ -1,0 +1,12 @@
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 0, "time_ms": 17946.324200999923, "peak_kb": 65100, "delta_kb": 2520, "verified": true, "timeout_hit": false}
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 1, "time_ms": 57.18604800006233, "peak_kb": 64992, "delta_kb": 2408, "verified": true, "timeout_hit": false}
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 2, "time_ms": 11539.52644000003, "peak_kb": 65020, "delta_kb": 2436, "verified": true, "timeout_hit": false}
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 3, "time_ms": 67.85755700002483, "peak_kb": 65104, "delta_kb": 2520, "verified": true, "timeout_hit": false}
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 4, "time_ms": 595.5948539999554, "peak_kb": 64980, "delta_kb": 2396, "verified": true, "timeout_hit": false}
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 5, "time_ms": 17399.086011000007, "peak_kb": 64976, "delta_kb": 2392, "verified": true, "timeout_hit": false}
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 6, "time_ms": 338.1591989999606, "peak_kb": 65108, "delta_kb": 2520, "verified": true, "timeout_hit": false}
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 7, "time_ms": 143.4897550000187, "peak_kb": 64980, "delta_kb": 2392, "verified": true, "timeout_hit": false}
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 8, "time_ms": 189.7650450000583, "peak_kb": 64980, "delta_kb": 2392, "verified": true, "timeout_hit": false}
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 9, "time_ms": 157.5293399999964, "peak_kb": 65112, "delta_kb": 2520, "verified": true, "timeout_hit": false}
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 10, "time_ms": 25000.0, "peak_kb": null, "delta_kb": null, "verified": false, "timeout_hit": true}
+{"attack": "vf2pp", "family": "F2", "n": 256, "d": 4, "k": 512, "label_bits": 0, "instance_id": 11, "time_ms": 1714.5028850000017, "peak_kb": 64992, "delta_kb": 2400, "verified": true, "timeout_hit": false}

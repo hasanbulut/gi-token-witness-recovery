@@ -1,0 +1,2 @@
+# Preserve exact archived bytes, including checksummed text files.
+* -text

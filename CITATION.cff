@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite this research software and dataset when using the revision 2 artifact. A Zenodo DOI will be added after archival."
+type: software
+title: "Artifact for: On the Insufficiency of Exact Graph-Isomorphism Tokens for Lightweight Authentication in Ad Hoc and Sensor Networks"
+version: 1.0.0
+authors:
+  - family-names: Yildirim
+    given-names: Alp
+    affiliation: Ege University
+  - family-names: Duman
+    given-names: Sevtap
+    affiliation: Ege University
+  - family-names: Bulut
+    given-names: Hasan
+    affiliation: Ege University
+    orcid: "https://orcid.org/0000-0002-4872-5698"
+repository-code: "https://github.com/hasanbulut/gi-token-witness-recovery"
+url: "https://github.com/hasanbulut/gi-token-witness-recovery"
+license: "MIT AND CC-BY-4.0"
+abstract: "Revision 2 code, experimental records, and summary data for witness recovery from exact graph-isomorphism authentication tokens in ad hoc and sensor networks. The code is MIT licensed; data and environment records are CC BY 4.0."
+keywords:
+  - graph isomorphism
+  - authentication
+  - Internet of Things
+  - VF3
+  - nauty
+  - Bliss
+  - empirical security evaluation

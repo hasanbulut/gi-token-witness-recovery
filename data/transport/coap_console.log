@@ -1,0 +1,21 @@
+IEEE 802.15.4 L2 payload available to 6LoWPAN: 103 B (127 - MAC 11 - sec 13)
+CoAP block size: 64 B | duty-cycle: 8.0 Hz | PER: 0.02 | footprint: one-graph nd
+
+Config                     B(bytes) CoAP blk L2 frames  RTT med  RTT p90  RTT p99
+---------------------------------------------------------------------------------
+F1 128/6 (case study)           768       12        12    1785     2025     2229
+F1 192/6                       1152       18        18    2678     2978     3229
+F2 192/6 k=5n                  1152       18        18    2678     2978     3229
+F2 256/10                      2560       40        40    5957     6393     6746
+F2 256/4 k=2n (hardest)        1024       16        16    2380     2659     2893
+
+All RTT values in ms. 'RTT' above = full token provisioning transfer (all blocks). Attacker VF3 recovery ~15 ms is offline.
+
+Single confirmable CoAP round trip (request + ACK), the case-study contrast figure, vs. duty-cycle rate:
+ check-rate (Hz)   single RTT (ms)
+               2               529
+               4               274
+               8               147
+              16                83
+              32                51
+=> at the common 8 Hz radio-duty-cycle setting a single confirmable round trip is ~1.5x10^2 ms, i.e. an order of magnitude above the attacker's 15 ms offline recovery, supporting the case-study claim.

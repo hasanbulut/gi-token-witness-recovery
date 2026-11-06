@@ -1,0 +1,32 @@
+{
+  "title": "Artifact for: On the Insufficiency of Exact Graph-Isomorphism Tokens for Lightweight Authentication in Ad Hoc and Sensor Networks",
+  "upload_type": "software",
+  "description": "Revision 2 research artifact: experimental pipeline, raw per-instance records, and summary data for the article on witness recovery from exact graph-isomorphism authentication tokens (Ad Hoc Networks, manuscript ADHOC-D-26-01690). Code is licensed under MIT; data and environment records are licensed under CC BY 4.0, as detailed in LICENSE.",
+  "creators": [
+    {
+      "name": "Yildirim, Alp",
+      "affiliation": "Ege University"
+    },
+    {
+      "name": "Duman, Sevtap",
+      "affiliation": "Ege University"
+    },
+    {
+      "name": "Bulut, Hasan",
+      "affiliation": "Ege University",
+      "orcid": "0000-0002-4872-5698"
+    }
+  ],
+  "keywords": [
+    "graph isomorphism",
+    "authentication",
+    "Internet of Things",
+    "VF3",
+    "nauty",
+    "Bliss",
+    "empirical security evaluation"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "1.0.0"
+}

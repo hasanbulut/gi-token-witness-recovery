@@ -1,0 +1,30 @@
+experiment_settings:
+  instances_per_cell: 200
+  random_seed: 42
+
+families:
+  - "F1"
+  - "F2"
+  - "F3"
+  - "F4"
+
+attacks:
+  - "WL-1"
+  - "VF2++"
+  - "VF3"
+  - "nauty"
+  - "Bliss"
+
+parameters:
+  n: [64, 96, 128, 160, 192, 256]
+  d: [4, 6, 8, 10]
+  timeouts_sec: [0.1, 1, 5, 30]
+
+family_specific_parameters:
+  F2:
+    swap_multipliers: [0, 2, 5]
+  F4:
+    label_bits: [0, 2, 4, 8]
+
+noise:
+  epsilons: [0, 0.005, 0.01, 0.02]

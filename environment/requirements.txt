@@ -1,0 +1,12 @@
+# Library versions of the reference run, as recorded in results_meta.json
+# (Python 3.10.12, Ubuntu 22.04 under WSL2).
+networkx==3.4.2
+numpy==2.2.6
+scipy==1.15.3
+pynauty==2.8.8.1
+vf3py==1.0.2
+igraph==1.0.0
+PyYAML==6.0.3
+psutil==7.2.2
+# Plotting only; its version was not recorded and does not affect any result.
+matplotlib

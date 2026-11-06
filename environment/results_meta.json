@@ -1,0 +1,15 @@
+{
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "libraries": {
+    "networkx": "3.4.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pynauty": "2.8.8.1",
+    "vf3py": "1.0.2",
+    "igraph": "1.0.0",
+    "yaml": "6.0.3",
+    "psutil": "7.2.2"
+  }
+}
